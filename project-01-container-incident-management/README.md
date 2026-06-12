@@ -113,6 +113,41 @@ Issue Closure
 
 ---
 
+Outage Detected
+      ↓
+GitHub Issue Created
+      ↓
+Jira Ticket Created
+      ↓
+Investigation
+      ↓
+docker ps
+docker ps -a
+docker logs
+docker events
+      ↓
+Root Cause Identified
+      ↓
+docker start web-app
+      ↓
+Validation
+docker ps
+localhost:8080
+      ↓
+Jira Updated
+      ↓
+incident_notes.md Updated
+      ↓
+git add
+git commit
+git push
+      ↓
+GitHub Comment
+      ↓
+GitHub Issue Closed
+      ↓
+Jira Done
+
 # Repository Structure
 
 ```text

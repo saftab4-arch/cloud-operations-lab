@@ -71,20 +71,28 @@ To Do
 
 Investigation and recovery evidence documented within Jira.
 
+  
+## Git Workflow Used
+
+Before starting work, pull the latest repository changes:
+
+```bash
+git pull origin master
+
 ## Skills Demonstrated
 
-- Docker Operations
-- Incident Response
-- Service Recovery
-- Bash Scripting
-- Monitoring Automation
-- Git Workflow
-- Jira Ticket Management
+Docker Operations
+Incident Response
+Service Recovery
+Bash Scripting
+Monitoring Automation
+Git Workflow
+Jira Ticket Management
 
 ## Future Improvements
 
-- Email notifications
-- Slack alerts
-- Multi-container monitoring
-- Scheduled execution via cron
-- Health endpoint validation
+Email notifications
+Slack alerts
+Multi-container monitoring
+Scheduled execution via cron
+Health endpoint validation
